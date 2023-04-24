@@ -5,7 +5,7 @@
   "main": "ddbb.js",
   "scripts": {
     "start": "nodemon index",
-    "build": "nodemon index"
+    "build": "node index"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +16,8 @@
     "express": "^4.18.2",
     "mongoose": "^6.0.12",
     "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
