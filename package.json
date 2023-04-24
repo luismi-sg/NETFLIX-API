@@ -5,7 +5,7 @@
   "main": "ddbb.js",
   "scripts": {
     "start": "nodemon index",
-    "build": "npm run build"
+    "build": "nodemon index"
   },
   "keywords": [],
   "author": "",
