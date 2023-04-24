@@ -31,7 +31,7 @@ app.use( router )
 const main = async () => await mongoose.connect( 'mongodb+srv://lmsg1191:conectarmongo@cluster0.5jxyu5a.mongodb.net/NETFLIX' )
             .then( () => console.log( `Conectando a MongoDB BBDD NETFLIX 👻`) )
 
-main()
+main() 
 
 router.route('/').get( getNetflix )
 
