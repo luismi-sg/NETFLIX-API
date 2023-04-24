@@ -26,7 +26,7 @@ app.use( express.json() )
 app.use( express.urlencoded( {extended:false} ))
 app.use( router )
 
-let bbdd = process.env.BBDD
+let bbdd = process.env.BBDD 
 
 const main = async () => await mongoose.connect( bbdd )
             .then( () => console.log( `Conectando a MongoDB BBDD NETFLIX 👻`) )
