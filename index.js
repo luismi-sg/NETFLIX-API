@@ -60,3 +60,5 @@ router.route('/usuarios/id/:_id').delete( deletePerfil )
 app.listen( 4000 , () => {
     console.log(`API NETFLIX lista en puerto 4000 💀`)
 })
+
+module.exports = app
