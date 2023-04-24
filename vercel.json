@@ -14,8 +14,9 @@
     ],
     "redirects": [
       {
-        "source": "/app/main/(.*)",
-        "destination": "/"
+        "src": "/main/app",
+        "dest": "/",
+        "permanent": false 
       }
     ]
-}
+}ss
