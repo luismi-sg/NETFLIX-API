@@ -10,10 +10,13 @@
       {
         "src": "/(.*)",
         "dest": "index.js"
-      },
+      }
+    ],
+    "redirects": [
       {
-        "src": "https://netflix-proyecto.vercel.app/app/main/",
-        "dest": "/(.*)"
+        "source": "/app/main(.*)",
+        "destination": "/"
       }
     ]
+}
   }
