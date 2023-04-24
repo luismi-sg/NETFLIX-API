@@ -15,8 +15,7 @@
     "redirects": [
       {
         "src": "/main/app",
-        "dest": "/",
-        "permanent": false 
+        "dest": "/(.*)"
       }
     ]
 }
