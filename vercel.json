@@ -12,7 +12,7 @@
         "dest": "index.js"
       },
       {
-        "src": "/main/app/(.*)",
+        "src": "/main/app(.*)",
         "dest": "index.js"
       }
     ]
