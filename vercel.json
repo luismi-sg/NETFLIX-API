@@ -12,7 +12,7 @@
         "dest": "index.js"
       },
       {
-        "src": "/main/app(.*)",
+        "src": "https://netflix-proyecto.vercel.app/app/main(.*)",
         "dest": "/"
       }
     ]
