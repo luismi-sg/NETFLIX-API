@@ -15,7 +15,7 @@
     "redirects" : [
       {
         "source" : "/app",
-        "destination" : "/"
+        "destination" : "index.js"
       }
     ]
 }
