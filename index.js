@@ -21,14 +21,14 @@ const { getContenidoNetflix, getContenidoByIdNetflix }          = require('./con
 const app               = express()
 const router            = Router()
 
+
 app.use( cors() )
 app.use( express.json() )
 app.use( express.urlencoded( {extended:false} ))
 app.use( router )
 
-//  let bbdd = process.env.BBDD
-let bbdd = 'mongodb+srv://lmsg1191:conectarmongo@cluster0.5jxyu5a.mongodb.net/NETFLIX' || 'mongodb://127.0.0.1:27017/NETFLIX'
- 
+let bbdd = process.env.BBDD || process.env.LOCAL
+// let bbdd = 'mongodb+srv://lmsg1191:conectarmongo@cluster0.5jxyu5a.mongodb.net/NETFLIX' || 'mongodb://127.0.0.1:27017/NETFLIX'
 
 const main = async () => await mongoose.connect( bbdd )
             .then( () => console.log( `Conectando a MongoDB BBDD NETFLIX 👻`) )
