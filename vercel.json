@@ -12,8 +12,8 @@
         "dest": "index.js"
       },
       {
-        "src": "main/app/(.*)",
-        "dest": "/(.*)"
+        "src": "/main/app(.*)",
+        "dest": "index.js"
       }
     ]
 }
