@@ -10,16 +10,12 @@
       {
         "src": "/(.*)",
         "dest": "index.js"
-      },
-      {
-        "src": "/app/main(.*)",
-        "dest": "index.js"
       }
     ],
     "redirects" : [
       {
         "source" : "/app/main",
-        "destination" : "index.js"
+        "destination" : "/(.*)"
       }
     ]
 }
