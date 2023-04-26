@@ -27,7 +27,7 @@ app.use( express.json() )
 app.use( express.urlencoded( {extended:false} ))
 app.use( router )
 
-let bbdd = process.env.BBDD || process.env.LOCAL
+let bbdd = process.env.ATLAS || process.env.LOCAL
 // let bbdd = 'mongodb+srv://lmsg1191:conectarmongo@cluster0.5jxyu5a.mongodb.net/NETFLIX' || 'mongodb://127.0.0.1:27017/NETFLIX'
 
 const main = async () => await mongoose.connect( bbdd )
