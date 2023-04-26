@@ -14,8 +14,8 @@
     ],
     "redirects": [
       {
-        "src": "/main/app",
-        "dest": "/(.*)"
+        "src": "/main/app/(.*)",
+        "dest": "index.js"
       }
     ]
 }
