@@ -13,7 +13,7 @@
       },
       {
         "src" : "/app/(.*)",
-        "dest" : "/"
+        "dest" : "index.js"
       }
     ],
     "redirects" : [
