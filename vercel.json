@@ -14,8 +14,8 @@
     ],
     "redirects" : [
       {
-        "source" : "/app/main",
-        "destination" : "/(.*)"
+        "source" : "/app/(.*)",
+        "destination" : "/"
       }
     ]
 }
