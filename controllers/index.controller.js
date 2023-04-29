@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 const netflixSchema = new mongoose.Schema(
     { reproducion : Array , opcionesRep : Array , flechaAtras : Object , close : Object , bandera : Object , megusta : Array , megustaVacio : Object , 
         megustaLleno : Object , milista : Object , check : Object},
-    { collection : 'todo' }
+    { collection : 'acciones' }
 )
 
 const Netflix = mongoose.model('Netflix' , netflixSchema )
